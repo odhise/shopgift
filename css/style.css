@@ -1,0 +1,239 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.market-place{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+.market-place ul li{
+    list-style-type: none;
+
+} 
+.top-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: darkgreen;
+    position: relative;
+    
+}
+.sub-menu{
+    visibility: hidden;
+    list-style-type: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 2px 2px 5px #000;
+    top: 90%;
+    padding: 1em;
+}
+.top-menu:hover .sub-menu{
+    visibility: visible;
+}
+
+.service-selection{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.sub-img{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.selection1{
+display: flex;
+gap: 1.5em;
+margin: 1em 0;
+}
+.image1{
+    background-image: url("../images/socks3.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.image1:hover .card{
+    background-color: mediumturquoise;
+    transition: .5s;
+}
+
+.top-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3em;
+    
+}
+.services h2{
+    color: deeppink;
+    font-size: 4rem;
+    font-family: 'Rampart One', cursive;
+    border: 2px 2px 3px lightgray;
+}
+.services p{
+    color: rgb(88, 82, 82);
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+
+}
+.value-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.value-products h2{
+    color: seagreen;
+    font-size: 3rem;
+    font-family: 'Rampart One', cursive;
+}
+.value-products p{
+    color:grey;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+
+}
+.btn,.button1{
+    display: flex;
+    padding: 1em 2em;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 2em;
+    font-family: 'Oswald', sans-serif;
+ background-color: #EE2826;
+ color: white;
+    gap:3em;
+}
+
+.btn,.button1:hover{
+    background-color: white;
+    transition: .3s;
+}
+
+
+.buying-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.buying-price h2{
+    color: red;
+    font-size: 3rem;
+    font-family: 'Rampart One', cursive;
+}
+.p{
+    color: #000;
+    font-size:2rem ;
+    font-family: 'Oswald', sans-serif;
+}
+.follow{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.h2h{
+    text-align: center;
+    font-size: 4rem;
+    color: violet;
+    font-family: 'Fruktur', cursive;
+
+
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.email h2{
+    color: violet;
+    font-family: 'Fruktur', cursive;
+    font-size: 4rem;
+
+}
+.email p{
+    color:black;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+
+}
+.input{
+    padding: .8em 12em;  
+    font-family: 'Lobster', cursive;
+margin: 0 2em;
+
+    
+}
+.sign-up{
+    padding: .8em 4em;
+    background-color: #D62400;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+.sign-up:hover{
+    background-color:transparent;
+    transition: .3s;
+}
+.icons{
+    background-image: url("../images/shoe5.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    margin-top: 2em;
+    
+}
+
+
+.footer-section{
+    background-image: url("../images/shop3.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    margin-top: 2em;
+    
+}
+
+.footer-section h3{
+    color: red;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.footer-section ul li{
+    list-style-type: none;
+    color:black;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+
+
+}
